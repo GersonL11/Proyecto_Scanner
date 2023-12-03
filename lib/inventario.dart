@@ -9,6 +9,7 @@ class _InventarioPageState extends State<InventarioPage> {
   List<Producto> productos = [
     Producto(id: 1, nombre: 'Producto 1', categoria: 'Electrónica', stock: 10, precioVenta: 20.0),
     Producto(id: 2, nombre: 'Producto 2', categoria: 'Ropa', stock: 15, precioVenta: 30.0),
+    Producto(id: 3, nombre: 'Producto 3', categoria: 'Ropa', stock: 15, precioVenta: 30.0),
   ];
 
   String categoriaSeleccionada = 'Electrónica';
